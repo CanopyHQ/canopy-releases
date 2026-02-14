@@ -1,43 +1,43 @@
-# Canopy Binary Releases
+# Canopy Releases
 
-This repository contains binary releases for Canopy - the AI development platform.
+Binary releases for [Canopy](https://canopyhq.io) — AI Memory Layer for your coding tools.
 
-## Installation
-
-### macOS (Homebrew)
+## Install
 
 ```bash
 brew tap canopyhq/tap
 brew install canopy
+canopy setup
 ```
 
-### Manual Download
+## Manual Download
 
-Download the latest release for your architecture:
+Download from the [latest release](https://github.com/CanopyHQ/canopy-releases/releases/latest):
 
-- **macOS Apple Silicon (M1/M2/M3):** [canopy-darwin-arm64.tar.gz](https://github.com/CanopyHQ/canopy-releases/releases/latest)
-- **macOS Intel:** [canopy-darwin-amd64.tar.gz](https://github.com/CanopyHQ/canopy-releases/releases/latest)
-
-Extract and install:
+- **macOS Apple Silicon (M1/M2/M3/M4):** canopy-darwin-arm64.tar.gz
+- **macOS Intel:** canopy-darwin-amd64.tar.gz
 
 ```bash
-tar -xzf canopy-*.tar.gz
-sudo mv cambium phloem /usr/local/bin/
+tar -xzf canopy-darwin-*.tar.gz
+sudo mv canopy /usr/local/bin/
 ```
 
 ## What is Canopy?
 
-Canopy is an AI development platform that provides:
+Canopy is a local-first memory layer that gives AI tools persistent context. Store a memory once — Cursor, Windsurf, and Claude Code can recall it automatically via MCP.
 
-- **70% savings on LLM API costs** via smart routing
-- **AI memory that persists** across sessions and tools
-- **Works with 360+ models** - Claude, GPT, Gemini, Llama, and more
+- All data stored locally on your machine
+- No account required, works offline
+- Semantic search with local embeddings
 
-## Documentation
+## Links
 
-- [GitHub Repository](https://github.com/CanopyHQ/canopy) (private - contact for access)
+- [Website](https://canopyhq.io)
+- [Support](https://canopyhq.io/support) · support@canopyhq.io
+- [FAQ](https://canopyhq.io/faq)
 - [Release Notes](https://github.com/CanopyHQ/canopy-releases/releases)
 
 ## License
 
-Proprietary - All rights reserved
+Proprietary. Free for individual use.
+
